@@ -1,0 +1,18 @@
+body{
+    padding: 0;
+    margin: 0;
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-column-gap: 1.042vw;
+}
+#container{
+    display: flex;
+    grid-column: 1/9;
+}
+.logo{
+    grid-column: 2/3;
+    height: 12vw;
+    left: 5vw;
+    display: flex;
+}
+
