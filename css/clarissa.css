@@ -1,0 +1,128 @@
+body{
+    background-color:skyblue;
+    background-repeat: repeat;
+    font-family:Arial, Helvetica, Verdana, sans-serif;
+    font-size: 1em;
+}
+
+#mainContainer{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+header{
+	grid-column: 1/9;
+    display: flex;
+    justify-content:flex-start;
+    padding: 20px;
+	align-items: center;
+	filter: drop-shadow(0px 5px 5px dimgray);
+	background-color:lightblue;
+	flex-direction:column;
+	
+}
+
+#title{
+	display:flex;
+	flex-direction:row;
+}
+
+#title > img{
+	margin:20px;
+}
+h1, h2{
+	color:#005AA7;
+	font-family:monospace, "Commodore 64";
+	
+}
+
+main{
+	grid-column:2/8;
+	width: 1000px;
+	background-color:skyblue;
+	text-align:center;
+	
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+	
+	padding:20px;
+	
+
+}
+
+
+.info{
+	
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:20px;
+	margin:10px;
+	
+	background-color:lightblue;
+	display:flex;
+	padding:20px;
+	flex-direction:column;
+	filter: drop-shadow(0px 5px 5px dimgray);
+
+}
+
+
+p{
+	margin:5px;
+	font-family:monospace, "Commodore 64";
+}
+
+.box{
+	display:flex;
+	background-color:lightblue;
+	flex-direction:column;
+	filter: drop-shadow(0px 5px 5px dimgray);
+
+}
+
+.box2{
+	display:flex;
+	background-color:lightblue;
+	flex-direction:column;
+	filter: drop-shadow(0px 5px 5px dimgray);
+	margin:10px;
+}
+
+.boxText{
+   background-color:lightblue;
+	display:flex;
+	padding:20px;
+	flex-direction:row;
+	align-items:center;
+	
+}
+
+.boxText > img {
+	border-radius:50%;
+}
+
+.boxText > p{
+	font-weight:700;
+	color:#005AA7;
+}
+
+footer{
+	grid-column: 1/9;
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+	align-items: center;
+	filter: drop-shadow(0px 5px 5px dimgray);
+	background-color:lightblue;
+	
+}
+
+footer > p{
+	font-weight:700;
+	color:#005AA7;
+}
+
+
+
