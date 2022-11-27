@@ -9,7 +9,7 @@
 <body>
 	<div id="main">
 		<div class="top">
-			<img src="img/NHL_logo.png">
+			<a href="main.php"><img src="img/NHL_logo.png" height="140" width="150"></a>
 			<p class="panim"> Hello, I'm Maksym,</p>
         </div>
 		<div id ="hero">

@@ -37,14 +37,20 @@ body{
     grid-column: 1/10;
     align-items: flex-end;
 }
+.top a{
+    grid-column: 1/2;
+    height: 10vw;
+    width: 11.5vw; 
+    animation: slideInR 1.3s ease-in-out forwards;
+}
 .panim{
     animation: slideIn 1.3s ease-in-out forwards;
 
 }
-.top > img{
+.top a > img{
     grid-column: 1/2;
-    height: 10vw;
-    width: 11.5vw; 
+    height: 140px;
+    width: 150px; 
     animation: slideInR 1.3s ease-in-out forwards;  
 }
 #hero{
