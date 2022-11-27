@@ -18,7 +18,7 @@
 			<img src="img/dobircianu.jpeg" width="250" height="250" >
 			<div class="nameBox">
 			<p><strong>Clarissa<br>Dobircianu</strong></p>
-			<img src="img/italy.jpeg" width="50" height="50">
+			<img src="img/italy.jpeg" width="50" height="40">
 			</div>
 			</a>
 			</div>
@@ -28,7 +28,7 @@
 			<img src="img/harold.jpeg"  width="250" height="250">
 			<div class="nameBox">
 			<p><strong>Maksym<br>Bivol</strong></p>
-			<img src="img/ukraine.jpeg" width="50" height="50">
+			<img src="img/ukraine.jpeg" width="50" height="40">
 			</div>
 			</a>
 			</div>
@@ -38,7 +38,7 @@
 			<img src="img/anastasia.jpeg"  width="250" height="250" >
 			<div class="nameBox">
 			<p><strong>Anastasia<br>Lukanova</strong></p>
-			<img src="img/macedonia.jpeg" width="50" height="50">
+			<img src="img/macedonia.jpeg" width="50" height="40">
 			</div>
 			</a>
 			</div>
