@@ -1,18 +1,159 @@
+* {
+    font-family: Nexa;
+    font-size: 48px;
+    font-weight: Light;
+}
+
+h1{
+    font-size: 96px;
+    padding: 0;
+    color: purple;
+    text-shadow: 1px 1px 1px #000;
+    animation: slideUp 0.8s ease forwards 0.5s;
+}
+p{
+    font-weight: lighter;
+    margin: 0;
+    text-shadow: 1px 1px 1px #000;
+    color:purple;    
+}
 body{
     padding: 0;
     margin: 0;
-    display:grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-column-gap: 1.042vw;
+    background-image: url('../img/maksym/gray.jpg');
+    transform: rotate(3deg);
+    background-size: cover;
+    filter: brightness(115%);
+    animation: expand .8s ease forwards;
 }
-#container{
-    display: flex;
-    grid-column: 1/9;
+#main{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    margin-top: 2.5vw;
+    margin-left: 2.5vw;
 }
-.logo{
-    grid-column: 2/3;
-    height: 12vw;
-    left: 5vw;
+.top{
     display: flex;
+    grid-column: 1/10;
+    align-items: flex-end;
+}
+.panim{
+    animation: slideIn 1.3s ease-in-out forwards;
+
+}
+.top > img{
+    grid-column: 1/2;
+    height: 10vw;
+    width: 11.5vw; 
+    animation: slideInR 1.3s ease-in-out forwards;  
+}
+#hero{
+    display: flex;
+    grid-column: 2/10;
+    gap: 20vw;
+    transform: rotate(3deg);
+}
+#hero > p{
+    transform: rotate(-6deg);
 }
 
+.hero1{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.hero1 > p{
+    margin: 0;
+}
+.hero1 > h1{
+    margin-bottom: 0;
+}
+.hero12{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 2.5vw;
+}
+.flag{
+    width: 4vw;
+    height:3vw;
+    border-radius: 15%;
+}
+#hero2{
+    display: flex; 
+}
+#hero2 > p{
+    color:white;
+}
+#hero2 > img{
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    animation: slideIn 1.6s ease-in-out forwards;
+}
+#hero2{
+    margin-top: 1.5vw;
+    display: flex;
+    grid-column: 2/8;
+    flex-direction: column;
+    transform: rotate(-3deg);
+}
+#hero2 > p{
+    font-size: 30px;
+}
+footer{
+    margin-top: 5vw;
+    display: flex;
+    grid-column: 2/9;
+    justify-content: space-evenly;
+    transform: rotate(3deg);  
+}
+.h2back{
+    background-color: #D9D9D9;
+    padding: 0.7vw;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+a{
+    color: white;
+}
+
+a > img{
+    width: 80px;
+    height: 80px;
+    
+}
+@keyframes slideIn {
+    0% {
+      transform: translateX(10000px) scale(.2);
+    }
+    100% {
+      transform: translateX(0px) scale(1);
+    }
+  }
+  @keyframes slideInR {
+    0% {
+      transform: translateX(-10000px) scale(.2);
+    }
+    100% {
+      transform: translateX(0px) scale(1);
+    }
+  }
+@keyframes slideUp {
+    0% {
+      transform: translateY(-1000%);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  @keyframes expand {
+    0% {
+      transform: translateX(-1000%);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
