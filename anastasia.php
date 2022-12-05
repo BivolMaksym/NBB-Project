@@ -54,6 +54,11 @@
 			</div>
 			
 			<div class="box">
+				<h1>Currently studying at NHL Stenden in Emmen</h1>
+				<img src="img/building.png" width="400">
+			</div>
+			
+			<div class="box">
 				<h1>Random facts about me</h1>
 				<p>1. My goal is to graduate uni and work in IT</p>
 				<p>2. I enjoy reading manga, my manga writer is Junji Ito</p>
